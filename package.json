@@ -1,0 +1,37 @@
+{
+  "name": "ai-pr-reviewer",
+  "version": "0.3.1",
+  "description": "AI-powered Pull Request reviewer using Claude + n8n",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test test/",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "ai",
+    "claude",
+    "anthropic",
+    "n8n",
+    "github",
+    "pull-request",
+    "code-review",
+    "automation"
+  ],
+  "author": "Serhii Valko <valkoserhii@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@octokit/rest": "^21.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
