@@ -10,7 +10,7 @@ const REVIEW_PROMPT = readFileSync(
 
 export async function reviewDiff({ diff, prTitle, prDescription, files }) {
   const message = await client.messages.create({
-    model: "claude-sonnet-4-6",
+    model: "claude-sonnet-4-5",
     max_tokens: 4096,
     system: REVIEW_PROMPT,
     messages: [
