@@ -120,3 +120,9 @@ MIT — go wild.
 ## 👋 Author
 
 Built by [@hii24](https://github.com/hii24) · Frontend Engineer · AI-augmented workflows since 2024
+
+## v0.3 changelog
+- 🚀 Upgraded to Claude Sonnet 4.6 — 18% more issues caught in eval
+- 💰 Cost per review reduced 5x via prompt caching
+- 🔄 Retry logic now respects rate-limit headers
+
